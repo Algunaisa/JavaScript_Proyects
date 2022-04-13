@@ -1,15 +1,15 @@
 //alert('Hola Mundo!!');
 
+//Declarar variables
+var nombre = "Isa Flores";
+var altura = 189;
+var concatenacion = nombre + " " + altura;
+
 /*//Estructuras de control
 if(altura >= 190){
     datos.innerHTML += '<h1>Eres una persona alta</h1>';
 }else{
     datos.innerHTML += '<h1>No eres una persona alta</h1>';
-}
-
-for(var i = 2000; i<=2020; i++){
-    //bloque de instrucciones
-    datos.innerHTML += "<h2>Estamos en el año: "+i;
 }*/
 
 //Funciones con parametros y con paso de parametros
@@ -32,13 +32,8 @@ function MuestraMiNombre(nombre, altura){
 
 //Funcion con los datos a imprimir
 function imprimir(){
-    //Declarar variables
-    /*var nombre = "Isa Flores";
-    var altura = 189;
-    var concatenacion = nombre + " " + altura;
-
     //Imprimir variables desde aqui en JC.
-    document.write(concatenacion);*/
+    /*document.write(concatenacion);*/
 
     //Usando un div y mostrar sin formato html
     var datos = document.getElementById("datos");
@@ -49,4 +44,21 @@ function imprimir(){
 
 //Llamar a la funcion
 imprimir();
-    
+
+var nombres = ['Victor', 'Antonio', 'Joaquin'];
+
+document.write('<h1>Listado de nombres</h1>');
+/*
+for(var i = 0; i < nombres.length; i++){
+    document.write(nombres[i] + '<br/>');
+}
+
+//fuction no tiene nombre es anonima o de call back (funcion q se ejecuta dentro de otra)
+nombres.forEach(function(nombre){
+    document.write(nombre + '<br/>');
+})
+*/
+//Funcion de flecha
+nombres.forEach((nombre)=>{
+    document.write(nombre + '<br/>');
+})
