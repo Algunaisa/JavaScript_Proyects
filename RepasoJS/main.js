@@ -7,6 +7,14 @@ var concatenacion = nombre + " " + altura;
 //document.write(concatenacion);
 var datos = document.getElementById("datos");
 
+//Se muestra desde aqui en JC.
+//datos.innerHTML = concatenacion;
+
+//Usando un div
+/*datos.innerHTML =   '<h1>Soy la caja de datos</h1>'
+                    +'<h2>Mi nombre es: '+nombre+'</h2>'
+                    +'<h3>Mido: '+altura+'</h3>';*/
+
 //Template String
 datos.innerHTML = `
     <h1>Soy la caja de datos</h1>
@@ -14,3 +22,5 @@ datos.innerHTML = `
     <h3>Mido: ${altura}</h3>
     `;
 
+
+    
