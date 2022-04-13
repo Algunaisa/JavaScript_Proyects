@@ -2,17 +2,11 @@
 
 # JavaScript
 
-## Repaso
+## RepasoJS
 
-- 
+Se tomo del video en YouTube:
+https://www.youtube.com/watch?v=Q9fwkpxr3Dw
 
-- 
-
-**algo**
-- Creacion (Create)
-- Lectura (Read)
-- Actualizacion (Update) y
-- Eliminacion (Delete)
 
 
  
